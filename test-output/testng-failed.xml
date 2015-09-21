@@ -6,7 +6,7 @@
       <class name="nestor_sanchez.training.globant.com.tests.Tests">
         <methods>
           <include name="before"/>
-          <include name="calendarTest"/>
+          <include name="dateCreationTest"/>
           <include name="after"/>
         </methods>
       </class>

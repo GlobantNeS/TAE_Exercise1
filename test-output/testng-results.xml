@@ -17,18 +17,6 @@
       <![CDATA[El titulo concuerda]]>
     </line>
     <line>
-      <![CDATA[Fecha Creacion: 2013-10-10T14:37:14+00:00]]>
-    </line>
-    <line>
-      <![CDATA[Fecha Mostrada: October 10, 2013]]>
-    </line>
-    <line>
-      <![CDATA[Fecha Creacion: 2013-10-10T14:36:10+00:00]]>
-    </line>
-    <line>
-      <![CDATA[Fecha Mostrada: October 10, 2013]]>
-    </line>
-    <line>
       <![CDATA[Calendario Checado]]>
     </line>
     <line>
@@ -47,46 +35,46 @@
       <![CDATA[Contacto Completo]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54125" started-at="2015-09-21T14:30:20Z" finished-at="2015-09-21T14:31:14Z">
+  <suite name="Default suite" duration-ms="56599" started-at="2015-09-21T16:33:48Z" finished-at="2015-09-21T16:34:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54125" started-at="2015-09-21T14:30:20Z" finished-at="2015-09-21T14:31:14Z">
+    <test name="Default test" duration-ms="56599" started-at="2015-09-21T16:33:48Z" finished-at="2015-09-21T16:34:45Z">
       <class name="nestor_sanchez.training.globant.com.tests.Tests">
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="3018" started-at="2015-09-21T14:30:20Z" finished-at="2015-09-21T14:30:23Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="3441" started-at="2015-09-21T16:33:48Z" finished-at="2015-09-21T16:33:52Z">
         </test-method>
-        <test-method status="PASS" signature="calendarTest()" name="calendarTest" duration-ms="5390" started-at="2015-09-21T14:30:23Z" finished-at="2015-09-21T14:30:28Z">
+        <test-method status="PASS" signature="calendarTest()" name="calendarTest" duration-ms="4542" started-at="2015-09-21T16:33:52Z" finished-at="2015-09-21T16:33:56Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="75" started-at="2015-09-21T14:30:28Z" finished-at="2015-09-21T14:30:28Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="62" started-at="2015-09-21T16:33:56Z" finished-at="2015-09-21T16:33:56Z">
         </test-method>
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2797" started-at="2015-09-21T14:30:28Z" finished-at="2015-09-21T14:30:31Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2572" started-at="2015-09-21T16:33:56Z" finished-at="2015-09-21T16:33:59Z">
         </test-method>
-        <test-method status="PASS" signature="checkSearch()" name="checkSearch" duration-ms="6769" started-at="2015-09-21T14:30:31Z" finished-at="2015-09-21T14:30:38Z">
+        <test-method status="PASS" signature="checkSearch()" name="checkSearch" duration-ms="6696" started-at="2015-09-21T16:33:59Z" finished-at="2015-09-21T16:34:05Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="109" started-at="2015-09-21T14:30:38Z" finished-at="2015-09-21T14:30:38Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="58" started-at="2015-09-21T16:34:05Z" finished-at="2015-09-21T16:34:06Z">
         </test-method>
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2632" started-at="2015-09-21T14:30:38Z" finished-at="2015-09-21T14:30:40Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2497" started-at="2015-09-21T16:34:06Z" finished-at="2015-09-21T16:34:08Z">
         </test-method>
-        <test-method status="PASS" signature="checkTitle()" name="checkTitle" duration-ms="4009" started-at="2015-09-21T14:30:40Z" finished-at="2015-09-21T14:30:44Z">
+        <test-method status="PASS" signature="checkTitle()" name="checkTitle" duration-ms="4405" started-at="2015-09-21T16:34:08Z" finished-at="2015-09-21T16:34:12Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="58" started-at="2015-09-21T14:30:44Z" finished-at="2015-09-21T14:30:44Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="58" started-at="2015-09-21T16:34:12Z" finished-at="2015-09-21T16:34:12Z">
         </test-method>
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2639" started-at="2015-09-21T14:30:44Z" finished-at="2015-09-21T14:30:47Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2519" started-at="2015-09-21T16:34:12Z" finished-at="2015-09-21T16:34:15Z">
         </test-method>
-        <test-method status="PASS" signature="dateCreationTest()" name="dateCreationTest" duration-ms="3896" started-at="2015-09-21T14:30:47Z" finished-at="2015-09-21T14:30:51Z">
+        <test-method status="PASS" signature="dateCreationTest()" name="dateCreationTest" duration-ms="4636" started-at="2015-09-21T16:34:15Z" finished-at="2015-09-21T16:34:20Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="58" started-at="2015-09-21T14:30:51Z" finished-at="2015-09-21T14:30:51Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="60" started-at="2015-09-21T16:34:20Z" finished-at="2015-09-21T16:34:20Z">
         </test-method>
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2517" started-at="2015-09-21T14:30:51Z" finished-at="2015-09-21T14:30:54Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2566" started-at="2015-09-21T16:34:20Z" finished-at="2015-09-21T16:34:22Z">
         </test-method>
-        <test-method status="PASS" signature="fillContactComplete()" name="fillContactComplete" duration-ms="7831" started-at="2015-09-21T14:30:54Z" finished-at="2015-09-21T14:31:01Z">
+        <test-method status="PASS" signature="fillContactComplete()" name="fillContactComplete" duration-ms="8831" started-at="2015-09-21T16:34:22Z" finished-at="2015-09-21T16:34:31Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="63" started-at="2015-09-21T14:31:01Z" finished-at="2015-09-21T14:31:01Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="59" started-at="2015-09-21T16:34:31Z" finished-at="2015-09-21T16:34:31Z">
         </test-method>
-        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2685" started-at="2015-09-21T14:31:01Z" finished-at="2015-09-21T14:31:04Z">
+        <test-method status="PASS" signature="before()" name="before" is-config="true" duration-ms="2466" started-at="2015-09-21T16:34:31Z" finished-at="2015-09-21T16:34:34Z">
         </test-method>
-        <test-method status="PASS" signature="fillContactNoComplete()" name="fillContactNoComplete" duration-ms="9509" started-at="2015-09-21T14:31:04Z" finished-at="2015-09-21T14:31:14Z">
+        <test-method status="PASS" signature="fillContactNoComplete()" name="fillContactNoComplete" duration-ms="11060" started-at="2015-09-21T16:34:34Z" finished-at="2015-09-21T16:34:45Z">
         </test-method>
-        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="61" started-at="2015-09-21T14:31:14Z" finished-at="2015-09-21T14:31:14Z">
+        <test-method status="PASS" signature="after()" name="after" is-config="true" duration-ms="61" started-at="2015-09-21T16:34:45Z" finished-at="2015-09-21T16:34:45Z">
         </test-method>
       </class>
     </test>

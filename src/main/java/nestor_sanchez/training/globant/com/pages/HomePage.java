@@ -1,6 +1,10 @@
 package nestor_sanchez.training.globant.com.pages;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -36,8 +40,21 @@ public class HomePage {
 		boolean result=true;
 		List<WebElement> dates=layoutContent.findElements(By.className("entry-date"));
 		for(WebElement dateCreation:dates){
-			Reporter.log("Fecha Creacion: "+dateCreation.getAttribute("datetime"));
-			Reporter.log("Fecha Mostrada: "+dateCreation.getText());
+			//2013-10-10T14:36:10+00:00
+			SimpleDateFormat formatterCreation = new SimpleDateFormat("yyyy-MM-dd");
+			//October 10, 2013
+			SimpleDateFormat formatterShowIt = new SimpleDateFormat("MMMM dd, yyyy",Locale.US);
+			try {
+				Date dateC = formatterCreation.parse(dateCreation.getAttribute("datetime").substring(0, 10));
+				Date dateS=formatterShowIt.parse(dateCreation.getText());
+				if(dateC.compareTo(dateS)!=0){
+					result=false;
+				}
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				Reporter.log(e.toString());
+				result=false;
+			}
 		}
 		return result;
 	}

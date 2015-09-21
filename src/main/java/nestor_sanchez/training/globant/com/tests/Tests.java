@@ -52,7 +52,7 @@ public class Tests {
 	public void dateCreationTest(){
 		HomePage homePage=PageFactory.initElements(driver, HomePage.class);
 		homePage.go(driver);
-		homePage.checkDateCreation();
+		Assert.assertEquals(true,homePage.checkDateCreation());
 		Reporter.log("Calendario Checado");
 	}
 	
